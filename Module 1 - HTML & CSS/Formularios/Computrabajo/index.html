@@ -1,0 +1,113 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Computrabajo</title>
+    <link rel="stylesheet" href="styleformtarea.css">
+</head>
+<body>
+    
+    <main class="container">
+        <h1 class="datos-personales">Datos Personales</h1>
+            <div class="sub-container">
+                <form action="basededatos.php" method="get">
+                
+                    <div class="orden-cajas">
+                        <label for="dia mes año">Fecha de nacimiento<sup>*</sup></label>
+                            <div class="alineacion-1-caja">
+                                <select class="date box-style" id="dia">
+                                    <option disabled selected>Día</option>
+                                    <option value="dia1">1</option>
+                                    <option value="dia2">2</option>
+                                    <option value="dia3">3</option>
+                                </select>
+                                <select class="date box-style" id="mes">
+                                    <option disabled selected>Mes</option>
+                                    <option value="mes1">Enero</option>
+                                    <option value="mes2">Febrero</option>
+                                    <option value="mes3">Marzo</option>
+                                </select>
+                                <select class="date box-style" id="año">
+                                    <option disabled selected>Año</option>
+                                    <option value="80">1980</option>
+                                    <option value="90">1990</option>
+                                    <option value="00">2000</option>
+                                </select>
+                            </div>
+                    </div>
+
+                    <div class="orden-cajas">
+                        <label for="tipo numero">Tipo de identificación<sup>*</sup></label>
+                            <div class="alineacion-id">
+                            <select class="grow-1 box-style" id="tipo">
+                                <option disabled selected>Selecciona</option>
+                                <option value="DNI">DNI</option>
+                                <option value="PSPT">Pasaporte</option>
+                                <option value="LC">Libreta cívica</option>
+                            </select>
+                                <input 
+                                class="grow-1 box-style"
+                                type="number" 
+                                id="numero"
+                                maxlength="10" 
+                                size="10">
+                            </div>
+                    </div>
+
+                    <div class="orden-cajas">
+                        <label for="estadocivil">Estado civil<sup>*</sup></label>
+                            <div>
+                                <select class="box-style2"   id="estadocivil">
+                                    <option disabled selected>Estado civil</option>
+                                    <option value="Sol">Solter@</option>
+                                    <option value="Cas">Casad@</option>
+                                    <option value="Vi">Viud@</option>
+                                </select>
+                            </div>
+                    </div>
+
+                    <div class="orden-cajas">
+                        <label for="telefono">Teléfono<sup>*</sup></label>
+                            <div class="alineacion-id">
+                                <select class="grow-1 box-style" id="telefono">
+                                    <option disabled selected>AR(+54)</option>
+                                    <option value="AR">AR (+54)</option>
+                                    <option value="BO">BO (+591)</option>
+                                    <option value="CL">CL (+56)</option>
+                                </select>
+                                    <input 
+                                    class="grow-2 box-style"
+                                    type="number" 
+                                    id="telefono"
+                                    maxlength="10" 
+                                    size="20">  
+                            </div> 
+                    </div>
+
+                    <div class="orden-cajas">
+                        <label for="skype">Skype</label>   
+                            <input 
+                            class="alineacion-id box-style2"
+                            type="text"
+                            id="skype"
+                            maxlength="50" 
+                            size="50">   
+                    </div>
+
+                    <div class="orden-cajas"> 
+                        <label for="paisprocedencia">País<sup>*</sup></label>
+                        <select id="paisprocedencia" class="alineacion-id box-style2">
+                            <option disabled selected>Selecciona</option>
+                            <option value="AR">Argentina</option>
+                            <option value="BO">Bolivia</option>
+                            <option value="CL">Colombia</option>
+                            <option value="CH">Chile</option>
+                            <option value="BR">Brasil</option>
+                            <option value="PY">Paraguay</option>
+                        </select>
+                    </div>
+                </form>
+            </div>
+    </main> 
+</body>
+</html>

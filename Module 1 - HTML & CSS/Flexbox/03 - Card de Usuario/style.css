@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    background-color: #6944ff
+}
+
+span{
+    font-weight: 900;
+    font-size: 22px;
+}
+
+.container{
+    width: 490px;
+    height: 706px;
+    background-color: white;
+    margin-left: 400px;
+    padding-top: 50px;
+}
+
+.image{
+    background-image: url(https://wehackthemoon.com/sites/default/files/styles/tile/public/2019-03/73326.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-left: 170px;
+}
+
+.name{
+    color: #6944ff;
+    font-weight: 700;
+    font-size: 15px;
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.text{
+    color: #324E63;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Quicksand', sans-serif;
+}
+img{
+    height: 20px;
+    width: 30px;
+}
+.loc{
+    color: #324E63;
+    display: block;
+    text-align: center;
+    padding-top: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+.item1{
+    display: inline-block;
+    margin: 30px;
+    padding-top: 20px;
+    color: #324E63;
+    text-align: center;
+}
+
+.follow{
+    color: white;
+    font-size: 13px;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    background-color: #d5135a;
+    border-radius: 50px;
+    text-align: center;
+    margin-top: 100px;
+    padding-top: 10px;
+}
+
+.profile-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column  ;
+}
+
+.icono-f{
+    display: flex;
+    border-radius: 50%;
+    background-color: #0078d7;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 50px;
+}
+
+.icono-t{
+    display: flex;
+    border-radius: 50%;
+    background-color: #1da1f2;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 50px;
+}
+
+.icono-i{
+    display: flex;
+    border-radius: 50%;
+    background-color: #e1306c;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 50px;
+}
+
+.icono-g{
+    display: flex;
+    border-radius: 50%;
+    background-color: #333333;
+    justify-content: center;
+    align-items: center;
+    height:50px;
+    width: 50px;
+}
+.tamaño{
+    height: 25px;
+    width: 25px;
+}
+
+.rrss{
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 50px;
+    justify-content: space-around;
+}

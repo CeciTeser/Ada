@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularios-Autenticación</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="second-container">
+
+            <h2 class="welcome">Welcome!</h2>
+                    
+            <h6 class="text">Semper vitae et hendrerit lorem tortor, tristique ut eu ornare pede urna, sem nunc aliquet tellus bibendum, iaculis aliquam curabitur vitae porttitor, ligula mi voluptatum feugiat sapien lacus. </h6>
+
+        <form action="basededatos.php" method="GET"></form>
+
+        <div class="container-form">
+                <div class="box-password">
+                    <label for="idPassword"> PASSWORD:</label>
+
+                    <input 
+                    type="password" 
+                    id="idPassword" 
+                    maxlength="20" 
+                    size="55" 
+                    placeholder="Enter your Password"> 
+                
+                </div>
+
+                <div class="box-username">
+                    <label for="idNombre"> USERNAME:</label>
+                
+                
+                    <input 
+                    type="text" 
+                    id="idNombre" 
+                    maxlength="20" 
+                    size="55"
+                    placeholder="Enter your name"> 
+                    
+                </div>
+
+                <div class="line-remember-forgot">
+                    <div class="rememberme">
+                    <input
+                    class="prueba" 
+                    id="idRememberMe" 
+                    type="checkbox" 
+                    value="leido">
+                    <label for="idRememberMe">Remember me</label></div>
+                
+                    <label for="idForgotme"> <a class="forgotme" href="">Forgot me</a></label>
+                </div>
+
+                <button type="submit" class="login">Login</button>
+                <button type="submit" class="signup">Sign Up</button>
+
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

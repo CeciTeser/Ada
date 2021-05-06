@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #333333;
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1600px;
+    height: 830px;
+    margin: 50px 400px;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Open Sans', sans-serif;
+}
+.introduction-text{
+    width: 400px;
+    height: 100px;  
+    margin: 20px 600px;
+    text-align: center;
+
+}
+.price-table{
+    color: white;
+    font-size: 32px;
+    font-weight: 600;
+}
+.text{
+    color: white;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.container-pricing-boxes{
+    width: 1300px ;
+    height: 600px;
+    margin: 30px 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    color: white;
+    text-align: center;
+}
+.box{
+    width: 332px;
+    height: 569px;
+    background-color: #585858;
+    border: 1px solid white;
+    border-radius: 10px;
+}
+.title-pricing{
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    font-weight: 400;
+}
+.price{
+    font-size: 48px;
+    margin-bottom: 20px;
+    font-weight: 500;
+}
+.points-check-mark{
+    width: 300px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    font-size: 20px;
+    list-style: none;
+    align-items: flex-start;
+    
+
+}
+.ckeck-mark{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px; 
+}
+.choose-plan-button{
+    width: 290px;
+    height: 47px;
+    background-color: #CDCDCD;
+    border-radius: 10px;
+    color: #21759B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 90px 20px;
+}
+.box:hover{
+    background-color: rgb(131, 129, 129);
+}
+

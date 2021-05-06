@@ -1,0 +1,130 @@
+@import url(https://allfont.es/allfont.css?fonts=courier-new);
+@import url(https://allfont.es/allfont.css?fonts=courier-new-bold);
+@import url(https://allfont.es/allfont.css?fonts=muli);
+
+*{
+    margin: 0;
+    font-family: 'Courier New', arial;
+    font-family: 'Courier New Bold', arial;
+}
+.caja-container{
+    background-color:#EBE3FB;
+    width: 1000;
+    height: 600px;
+    margin-top: 20px;
+    margin-left: 50px;
+    font-family: 'Roboto Slab', serif;
+    padding-top: 1px;
+
+}
+.caja-container-2{
+    background-color: white;
+    margin-top: 60px;
+    padding-top: 50px;
+    width: 300;
+    height: 250px;
+    margin-left: 100px;
+    border-radius: 9px;
+    padding-left: 500px;
+    padding-right: 300px;
+    margin-left: 300px;
+    margin-bottom: 200px;
+    padding-left: 50px;
+    padding-right: 30px;
+    box-shadow: 2px 2px 2px 2px rgb(170, 170, 170);
+    
+}
+h3{
+    font-weight: 100px;
+    color: black;
+    font-style: normal;
+    font-size: 13px;
+    padding-bottom: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+   
+}
+.cajita-5 {
+    padding: 10px;
+    border: 0.5px solid rgb(223, 223, 223);
+    display: inline;
+    border-radius: 5px;
+    margin-top: 1000px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(121, 121, 121);
+    font-weight: 100;
+    margin-left: 10px;
+}
+
+.cajita-10 {
+    padding: 10px;
+    border: 0.5px solid rgb(223, 223, 223);
+    display: inline;
+    border-radius: 5px;
+    margin-top: 1000px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.cajita-15 {
+    padding: 10px;
+    border: 0.5px solid rgb(223, 223, 223);
+    display: inline;
+    border-radius: 5px;
+    margin-top: 1000px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color:white;
+    font-weight: 400;
+    background-color: #7563f6;
+    margin-left: 3px;
+}
+
+.cajita-other {
+    padding: 10px;
+    border: 0.5px solid rgb(223, 223, 223);
+    display: inline;
+    border-radius: 5px;
+    margin-top: 1000px;
+    font-size: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: rgb(121, 121, 121);
+    font-weight: 400;
+    margin-left: 3px;
+}
+
+.cajita-continue {
+    padding: 10px;
+    border: 0.5px solid rgb(223, 223, 223);
+    display: inline;
+    border-radius: 5px;
+    margin-top: 1500px;
+    font-size: 12px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    color:white;
+    font-weight: 500;
+    background-color: #7563f6;
+    margin-left: 20px;
+    font-family: 'Muli', arial;
+
+}

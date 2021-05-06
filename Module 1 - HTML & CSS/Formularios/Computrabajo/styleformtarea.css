@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    background-color: lightgray;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    width: 1300px;
+    height: 1371px;
+    background-color: white;
+    margin: 80px;
+}
+.sub-container{
+    width: 870px;
+    height: 990px;    
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.datos-personales{
+    height: 85px;
+    background-color: #f0ece7;
+    font-size: 30px;
+    padding: 15px;
+    font-weight: 300;
+    
+}
+sup{
+    color: rgb(150, 64, 64);
+}
+.date{
+    width: 175px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+label{
+    margin: 0px 10px;
+    
+}
+.orden-cajas{
+    margin-top: 30px;   
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.alineacion-1-caja{
+    width: 500px;
+    display: flex;
+    flex-grow: 1;
+}
+.alineacion-id{
+    width: 500px;
+    display: flex;
+}
+.grow-1{
+    display: flex;
+    flex-grow:1 ;
+}
+.grow-2{
+    display: flex;
+    flex-grow:2 ;
+}
+
+.box-style {
+    margin: 10px 5px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC;
+    background-color:whitesmoke; 
+    padding-left: 10px;
+}
+
+.box-style2 {
+    margin: 10px 5px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #CCCCCC ;
+    background-color:whitesmoke;
+    width: 490px;
+    padding-left: 10px;
+}
+
+h1 {
+    width: 100%; 
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 100px;    
+}

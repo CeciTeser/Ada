@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    width: 100%;
+}
+
+.caja-container{
+    height: 700px;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    font-size: 36px;
+    color: black;
+    border: 1px solid rgb(212, 209, 209);
+}
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    background-color: hotpink;
+    height: 20%;
+}
+
+aside{
+    background-color: rgb(59, 165, 94);
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{   
+    background-color: white;
+    width:85%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-panel{
+    height: 60%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+footer{
+    background-color: indigo;
+    height: 20%;
+}

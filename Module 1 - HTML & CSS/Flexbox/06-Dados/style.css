@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #D3D3D3;
+}
+
+.container{
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    flex-direction: row;
+    margin: 300px;
+}
+
+.caja-dado{
+    background-color: #FFFFFF;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;   
+    padding: 15px;
+    flex-direction: column;
+    margin: 10px;
+    display: inline-block;
+    flex-wrap: wrap;
+
+}
+.dot{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.box-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.row1-dado2{
+    width: 100%;
+    display: flex;
+}
+.row2-dado2{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin-top: 45px;
+}
+.row1-dado3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    margin: 5px;
+
+}
+.row2-dado3{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+
+}
+.row3-dado3{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 5px;
+}
+
+.row1-dado4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row2-dado4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+.row1-dado5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.row2-dado5{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+.row3-dado5{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.row1-dado6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.row2-dado6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.row3-dado6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 10px;
+}

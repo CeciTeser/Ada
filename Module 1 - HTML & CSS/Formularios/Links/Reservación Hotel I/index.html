@@ -1,0 +1,75 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reservación Hotel I</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <form action="basededatos.php" method="GET"></form>
+        <div class="box-form-text">
+            <div class="box-form-container">
+                <div class="box-form">
+                    <label for="yourdestination">Your destination</label>
+                    <input
+                    class="input-your-destination"
+                    type="text" 
+                    id="yourdestination"
+                    placeholder="Enter a destination or hotel name">
+                        <div class="box-in-out">
+                            <div class="column">
+                                <label
+                                for="checkin">Check In</label>
+                                <input 
+                                class="input-in-out"
+                                type="date"
+                                id="checkin">
+                            </div>
+                            <div class="column">
+                                <label for="checkout">Check Out</label>
+                                <input 
+                                class="input-in-out"
+                                type="date"
+                                id="checkout">
+                            </div>
+                        </div>
+                        <div class="box-room-adt-chd">
+                            <div class="column">
+                                <label for="rooms">Rooms</label>
+                                <select class="box-select" id="rooms">
+                                    <option value="1room">1</option>
+                                    <option value="2room">2</option>
+                                    <option value="3room">3</option>
+                                </select>
+                            </div>
+                            <div class="column">
+                                <label for="adt">Adults</label>
+                                <select class="box-select" id="adt">
+                                    <option value="1adt">1</option>
+                                    <option value="2adt">2</option>
+                                    <option value="3adt">3</option>
+                                </select>
+                            </div>
+                            <div class="column">
+                                <label for="chd">Children</label>
+                                <select class="box-select" id="chd">
+                                    <option value="0chd">0</option>
+                                    <option value="1chd">1</option>
+                                    <option value="2chd">2</option>
+                                    <option value="3chd">3</option>
+                                </select>
+                            </div>
+                        </div>
+                    <button type="submit">Check availability</button>
+                </div>
+            </div>
+
+            <div class="box-text-aside">
+                <h1>MAKE YOUR <br> RESERVATION</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem nihil beatae repellendus dolorem optio quidem pariatur reiciendis vitae atque expedita illum, adipisci sequi nobis consequuntur minus voluptate iure neque eum!</p>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

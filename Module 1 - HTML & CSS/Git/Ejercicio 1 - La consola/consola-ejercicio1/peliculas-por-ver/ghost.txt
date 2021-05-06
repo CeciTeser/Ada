@@ -1,0 +1,9 @@
+git status
+clear
+ls
+git
+              
+
+[A[A[A[Acclear
+clear
+cd peliculas-por-ver

@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    height: 1000px;
+    margin-top: 30px;
+    margin-left: 400px;
+    position: relative;
+    transition: 1s;
+    overflow: hidden;
+
+}
+img{
+    width: 1200px;
+    height: 1000px;
+    position: absolute;
+    z-index: 100;
+}
+h1{
+    position: relative;
+    z-index: 500;
+    color: white;
+    top: 800px;
+    left: 100px; 
+}
+h2{
+    position: relative;
+    z-index: 1000;
+    color: white;
+    top: 800px;
+    left: 100px;
+    opacity: 0;
+}
+.overlay{
+    width: 1200px;
+    height: 1000px;
+    background-color: rgb(179, 189, 179);
+    opacity: 0;
+    position: absolute;
+    z-index: 200;
+    bottom: 0px;
+}
+
+.white-line{
+    width: 1200px;
+    height: 100px;
+    background-color: white;
+    position: relative;
+    z-index: 2000;
+    top: 970px;
+    opacity: 0;
+}
+
+
+.container:hover .overlay{
+    opacity: 0.5;
+    transition: 1s;
+    transform: translateX(30px);
+}
+
+.container:hover h1{
+    transform: translateY(20px);
+    transition: 0.5s;
+}
+.container:hover h2{
+    transform: translateY(20px);
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.container:hover img{
+    transform: translateX(30px);
+    transition: 0.5s;
+}
+.container:hover h1::after{
+    content:"NOW";
+}
+
+.container:hover .white-line{
+    opacity: 1;
+    transform: translate(30px,-50px);
+    transition: 0.5s;
+}

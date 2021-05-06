@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 330px;
+    height: 400px;
+    background-color: antiquewhite; 
+    margin: 30px 50px;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px -4px rgba(131,109,108,0.75);
+    
+}
+.image-face{
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    position: relative;
+    left: 60px;
+    top: 20px;
+}
+.image-flag{
+    width: 60px;
+    height: 40px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+}
+.person-data-container{
+    width: 300px;
+    height: 100px;
+    color: grey;
+    position: relative;
+    top: 40px;
+    left: 60px;
+}
+
+.person-data-text{
+    font-weight: 200;
+}
+.position-apellido{
+    position: relative;
+    top: 10px;
+}
+.position-profesion{
+    position: relative;
+    top: 20px;
+}

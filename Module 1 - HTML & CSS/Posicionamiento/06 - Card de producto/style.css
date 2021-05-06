@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 526px;
+    height: 642px;
+    background-color: lightgray;
+    margin: 20px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.subcontainer{
+    width: 400px;
+    height: 600px;
+    background-color: white;
+}
+.producto{
+    position: relative;
+    left: 20px;
+    top: 20px;
+}
+.fa-heart{
+    color: red;
+    font-size: 25px;
+    position: relative;
+    bottom:480px;
+    left: 360px;
+}
+.envío-gratis{
+    width: 100px;
+    height: 40px;
+    background-color: blue;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:500px;
+    left: 10px;
+    font-size: 17px;
+}
+.descuento{
+    width: 50px;
+    height: 35px;
+    background-color: green;
+    border-radius: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:490px;
+    left: 10px;
+    font-size: 17px;
+}
+.brand{
+    font-size: 30px;
+    position: relative;
+    bottom: 100px;
+    left: 30px;
+}
+.description{
+    color: lightgray;
+    font-size: 20px;
+    position: relative;
+    bottom: 95px;
+    left: 40px;
+}
+.price{
+    color: turquoise;
+    font-size: 25px;
+    position: relative;
+    bottom: 150px;
+    left: 330px;
+}

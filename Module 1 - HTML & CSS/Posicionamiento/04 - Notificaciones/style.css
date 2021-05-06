@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 640px;
+    height: 176px;
+}
+.blue-box{
+    width: 640px;
+    height: 106px;
+    background-color:#4988C1 ;
+}
+.green-box{
+    width: 640px;
+    height: 70px;
+    background-color: #7DDAC6;
+}
+.i-menu{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+
+
+}
+
+.icon-size{
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+    
+}
+
+.icon-3{
+    position: relative;  
+    left: 400px; 
+    bottom: 20px;  
+}
+
+.red-circle{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(212, 57, 57);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size:15px ;
+}
+.ten{
+    position: relative;
+    bottom: 50px;
+    left: 30px;
+}
+.five{
+    position: relative;
+    bottom: 80px;
+    left: 90px;
+}
+.three{
+    position: relative;
+    bottom: 110px;
+    left: 160px;
+}
+

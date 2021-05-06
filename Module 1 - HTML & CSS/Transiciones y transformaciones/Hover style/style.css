@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 800px;
+    width: 800px;
+    background-color: white;
+    border: 20px white solid;
+    margin: 10px 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.box{
+    height: 800px;
+    width: 800px;
+    background-color: lightgrey;
+    overflow: hidden;
+}
+img{
+    height: 800px;
+    width: 800px;
+    position: absolute;
+    z-index: 200;
+}
+
+
+.box-overlay{
+    height: 800px;
+    width: 800px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    position: absolute;
+    z-index: 100;
+}
+p{
+    text-align: center;
+    margin: 20px 100px;
+}
+
+
+.container:hover .box-overlay{
+    animation-name: effect;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    
+}
+.container:hover img{
+    opacity: 0;
+}
+@keyframes effect{
+    0%{
+        transform: scale(0.1) rotate(0deg); 
+    }
+    20%{
+        transform: scale(0.5) rotate(90deg); 
+    }
+    50%{
+        transform: scale(0.75) rotate(180deg); 
+    }
+    100%{
+        transform: scale(1) rotate(360deg); 
+    }
+}
+
+
+
