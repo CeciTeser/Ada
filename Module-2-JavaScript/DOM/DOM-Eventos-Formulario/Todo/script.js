@@ -12,17 +12,6 @@ function addLi()
 }
 
 
-// function getUrlImage()
-// {
-//     let image= document.getElementById(‘image-input’).value;
-//         img = document.querySelector(‘img’);
-//         imageUrl= document.createElement(image);
-
-//         liNode.appendChild(txtNode);
-//         listNode.appendChild(liNode);
-//         document.getElementById('txtVal').value = "";
-
-// }
 
 
 
