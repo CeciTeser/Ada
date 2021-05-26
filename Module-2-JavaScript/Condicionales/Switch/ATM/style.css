@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    padding:50px 0px;
+    background-color:#DDDD;
+}
+
+button{
+    width:150px;
+    height: 40px;
+    font-size: 18px;
+    margin:10px;
+    border-radius: 20px;
+    border:none;
+    background-color: rgb(97, 96, 108);
+    color: white;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 1px -2px 5px 0px rgba(151,137,137,0.75);
+}
+
+input{
+    outline: none;
+    width: 120px;
+    height: 30px;
+    margin-left: 15px;
+    border:none;
+    border-radius:5px;
+    padding: 5px;
+    margin: 10px 10px;
+}
+
+.pin{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-color:#3590a0;
+    width: 300px;
+    height: 70px;
+    border-radius:15px;
+    font-size: 15px;
+    color: #DDDD;
+    box-shadow: 1px -2px 3px 1px rgba(185, 181, 181, 0.75);
+}
+
+
+.box-button{
+    display:none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.form{
+    margin: 40px 0px;
+}
+
+.form-extraer {
+    display:none;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.saldo{
+    margin: 30px;
+}
+
+.form input:hover{
+    background-color: #f0eee4;
+}
+
+.form-trasferir{
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.form-depositar{
+    display:none;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.form-pin{
+    display:none;
+    flex-direction:column;
+    justify-content:center;
+    align-items: center;
+    font-size: 20px;
+}
+
+#ok-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(91, 91, 91);
+    width: 100px;
+    height: 30px;
+}

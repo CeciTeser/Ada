@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="" class="pin">
+        <label for="">INGRESE EL PIN:</label>
+        <input type="password" name="" id="pin">
+    </form>
+    <div class="box-button" id="box-button">
+        <p class="saldo">SALDO INICIAL: $ <span id="initial-money">10</span></p>
+        <div>
+            <button type="button" value="extraer">EXTRAER</button>
+            <button type="button" value="depositar">DEPOSITAR</button>
+            <button type="button" value="transferir">TRANSFERIR</button>
+            <button type="button" value="cambiar-pin">CAMBIAR PIN</button>
+            <button type="button" value="salir">SALIR</button>
+        </div>
+        <form action="" class="form">
+            <div class="form-extraer" id="form-extraer">
+                <label for="">Cuanto dinero desea extraer?</label>
+                <input type="number" name="" id="input-extraer" min="1" max="10">
+                <button type="button" id="ok-buttonextraer">OK</button>
+            </div>
+            <div class="form-trasferir" id="form-trasferir">
+                <div>
+                    <label for="">Ingrese el CBU o el alias</label>
+                    <input type="text" name="" id="cbu">
+                </div>
+                <div>
+                    <label for="">Cuanto dinero desea transferir?</label>
+                    <input type="number" name="" id="input-transferir" min="1">
+                </div>
+                <button type="button" id="ok-buttontransferir">OK</button>
+            </div>
+            <div class="form-depositar" id="form-depositar">
+                <label for="">Cuanto dinero desea depositar?</label>
+                <input type="number" name="" id="input-depositar" min="1" >
+                <button type="button" id="ok-buttondepositar">OK</button>
+            </div>
+            <div class="form-pin" id="form-pin">
+                <div>
+                    <label for="">Ingrese el nuevo PIN</label>
+                    <input type="password" name="" id="new-pin">
+                </div>
+                <div>
+                    <label for="">Ingrese el PIN anterior</label>
+                    <input type="password" name="" id="old-pin">
+                </div>
+                <button type="button" id="ok-buttoncambiarpin">OK</button>
+            </div>
+            
+        </form>
+        
+    </div>
+    <script src="script2.js"></script>
+</body>
+</html>
