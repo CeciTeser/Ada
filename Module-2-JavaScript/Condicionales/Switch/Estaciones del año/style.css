@@ -18,5 +18,7 @@ body{
     align-items: center;
     justify-content: center;
     color:rgb(254, 140, 140);
-    
+}
+select{
+    outline: none;
 }
