@@ -1,0 +1,33 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+        <form action="" class="form-box">
+            <div class="selects-box">
+            <div class="select-human-box">
+                <label for="">Selecciona piedra, papel o tijera</label>
+                <select name="" id="options-human" class="option-human-box" required>
+                    <option value="" selected disabled>------</option>
+                    <option value="piedra">Piedra</option>
+                    <option value="papel">Papel</option>
+                    <option value="tijera">Tijera</option>
+                </select>
+            </div>
+            <div class="select-pc-box">
+                <span>Selecciona la máquina</span>
+                <span class="pc-selection-box" id="options-pc"></span>
+            </div>
+        </div>
+
+            <div class="winner-box">
+                <span id="winner-box"></span>
+            </div>
+    </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>

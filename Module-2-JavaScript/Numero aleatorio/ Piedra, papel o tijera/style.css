@@ -1,0 +1,60 @@
+body{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-box{
+    width: 700px;
+    height: 300px;
+    padding-top: 80px;
+    padding-left: 10px;
+    background-color: cadetblue;
+    border: 1px solid #DDD;
+}
+.selects-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.select-human-box{
+    display: flex;
+    flex-direction: column;
+}
+.option-human-box{
+    outline: none;
+    color: tomato;
+    text-align: center;
+}
+.select-pc-box{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.pc-selection-box{
+    width: 200px;
+    height: 20px;
+    background-color: white;
+}
+.pc-selection-box{
+    outline: none;
+    color:lightseagreen;
+    font-size: 15px;
+}
+.winner-box{
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 200px;
+    padding-top: 10px;
+    color: hotpink;
+    font-size: 25px;
+    text-align: center;
+}
