@@ -1,0 +1,158 @@
+body {
+    padding: 30px;
+    font-family: fantasy;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.game {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    font-family: fantasy;
+    height: 440px;
+    width: 600px;
+    box-shadow: 0px 0px 8px 2px grey;
+
+}
+
+i {
+    font-size: 140px;
+    filter: drop-shadow(0 0 0.9rem #65d6f8);
+}
+
+#play-simon {
+    padding: 15px 35px;
+    border-radius: 15px;
+    border: rgb(2, 1, 1) solid 3px;
+}
+
+#simon-box {
+    font-size: 36px;
+    margin: 30px;
+    border-radius: 15px;
+    padding: 5px;
+    border: rgb(12, 80, 126) dashed 2px;
+    box-shadow: 0px 0px 16px 2px rgb(246, 15, 235);
+}
+
+span {
+    font-family: fantasy;
+    font-size: 30px;
+}
+
+#start-game {
+    margin: 20px;
+    width: 200px;
+    height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 0px 20px;
+    outline: none;
+    border-radius: 15px;
+    border: none;
+    display: none;
+}
+
+.color-box {
+    display: none;
+    margin-top: 10px;
+    width: 420px;
+    height: 200px; 
+    flex-direction: row;   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+button {
+    width: 100px;
+    height: 100px;
+    outline: none;
+    border-radius: 15px;
+    border: solid 2px black;
+}
+
+#rojo {
+    background-color: red;
+}
+
+#amarillo {
+    background-color: yellow;
+}
+
+#azul {
+    background-color: blue;
+}
+
+#verde {
+    background-color: green;
+}
+
+#cheked {
+    height: 50px;
+    width: 160px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+#reset {
+    height: 50px;
+    width: 200px;
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+}
+
+
+ /* Hover y active */
+
+#play-simon:hover {
+    box-shadow: 0px 0px 21px 8px #DDD;
+}
+
+#start-game:hover {
+    filter: drop-shadow(0 0 0.8rem #504f48);
+    transition: .5s;
+    box-shadow: 0px 0px 5px 0px rgb(199, 238, 214);
+}
+
+#reset:active { 
+    background-color: rgb(189, 184, 184); 
+}
+#reset:hover {
+    box-shadow: 0px 0px 5px 0px rgb(225, 182, 182);
+    transition: .5s;
+}
+
+#cheked:active { 
+    background-color: rgb(148, 145, 145); 
+}
+#cheked:hover {
+    filter: drop-shadow(0 0 0.8rem #c4a8c1);
+    transition: .5s;
+}
+
+#rojo:active {
+    background-color: rgb(224, 85, 201);
+    filter: drop-shadow(0 0 0.8rem rgb(238, 118, 118));
+}
+#amarillo:active{
+    background-color: rgb(245, 244, 238) ;
+    filter: drop-shadow(0 0 0.8rem rgb(207, 207, 141));
+}
+#verde:active{
+    background-color: greenyellow;
+    filter: drop-shadow(0 0 0.8rem rgb(159, 226, 159));
+}
+#azul:active{
+    background-color: rgb(96, 243, 248) ;
+    filter: drop-shadow(0 0 0.8rem rgb(184, 184, 240));
+}
