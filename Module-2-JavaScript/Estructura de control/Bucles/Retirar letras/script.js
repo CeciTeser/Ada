@@ -2,15 +2,14 @@ const palabra ='hola';
 const cantidad = 2
 
 const repetirLetras=(palabra, cantidad)=>{
-    let respuesta="";
+    let newString="";
 
     for (let i=0; i<palabra.length; i++){
-        respuesta=palabra[i].repeat(cantidad);
-
-        
+        for (let j=0; j<cantidad; j++)
+        newString=newString + palabra[i]
     }
-    let respuesta2=respuesta.join('');
-    console.log(respuesta2);
+
+    console.log(newString);
 }
     repetirLetras(palabra, cantidad);
 
